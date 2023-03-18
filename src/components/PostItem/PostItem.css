@@ -1,0 +1,39 @@
+.Post__button {
+  border: none;
+  outline: none !important;
+  padding: 4rem;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px #ccc;
+  text-align: start;
+  font-family: inherit;
+  transition: box-shadow 0.3s ease;
+}
+
+.Post__button:hover {
+  box-shadow: 2px 2px 10px #888;
+}
+
+.Post__button:focus {
+  box-shadow: 2px 2px 10px #888;
+}
+
+.Post__button--clickable {
+  cursor: pointer;
+}
+
+.Post__author {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: var(--grey);
+  margin-block-start: 1rem;
+  text-align: end;
+}
+
+.Post__title {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-block-end: 2rem;
+}
